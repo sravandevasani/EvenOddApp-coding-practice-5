@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.bg-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #0f172a;
+}
+.count-type {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 26px;
+}
+.button {
+  font-family: 'Roboto';
+  color: #1e293b;
+  background-color: #ffffff;
+  border: 0;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.about {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 12px;
+}
